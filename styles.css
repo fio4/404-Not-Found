@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    min-width: 350px;
+   
+   
+}
+.header-letra{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+
+}
+
+.main{
+    display: flex;
+}
+
+.imagen{
+    margin: auto;
+    text-align: center;
+}
+.title-letra-main{
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+}
+
+.text-letra-main{
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.button{
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: white;
+    background: #333333;
+    width: 216px;
+    height: 50px;
+}
+
+footer{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 143px;
+}   
+
+@media (max-width: 832px) {
+    body{
+        padding: 0 50px;
+    }
+
+    .title-letra-main{
+        font-size: 55px;
+        line-height: 68px;
+    }
+
+    .text-letra-main{
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width:742px) {
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagen {
+        width: 85%;
+    }
+
+    .title-letra-main {
+        font-size: 36px;
+    }
+
+    .text-letra-main {
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width:608px) {
+    .title-letra-main {
+        line-height: 44px;
+    }
+
+  }
+
+  @media (max-width:560px) {
+    .imagen {
+        width: 85%;
+    }
+  }
+
+  @media (max-width:540px) {
+    .imagen {
+        width: 80%; 
+    }
+
+    .title-letra-main {
+        line-height: 44px;
+    }
+
+    .text-letra-main {
+        font-size: 16px;
+    }
+  }
+
